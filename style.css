@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#login-page, #password-page {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input, button {
+    padding: 12px 18px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+input {
+    background-color: #f8f8f8;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+
+.edi{
+    background-color: blue;
+}
+.del{
+    background-color: red;
+}
+
+#logout-btn{
+    background-color: red;
+}
+#login-page input, #login-page button {
+    margin-top: 20px;
+}
+
+#password-list {
+    margin-top: 20px;
+}
+
+#password-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#password-list li {
+    margin: 15px 10px;
+    background: #fafafa;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+
+}
+.tag{
+    font-size: 20px;
+    color: green;
+}
+#password-list li div {
+    flex: 1;
+}
+
+#password-list li button {
+    background-color: transparent;
+    border: none;
+    color: #007BFF;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#add-password-btn {
+    background-color: blue;
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease;
+}
+
+
+#website-list {
+    margin-top: 20px;
+}
+
+#website-list h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#login-page p {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+#password-page {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #login-page, #password-page {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    input, button {
+        font-size: 14px;
+    }
+
+    #password-list li {
+        font-size: 14px;
+    }
+}

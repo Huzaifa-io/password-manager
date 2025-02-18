@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div id="login-page">
+        <h1>Login</h1>
+        <input type="password" id="login-password" placeholder="Enter password">
+        <button id="login-btn">Login</button>
+        <p id="error-msg"></p>
+    </div>
+
+    <div id="password-page" style="display: none;">
+        <h1>Password Manager</h1>
+        <button id="logout-btn">Logout</button>
+        <button id="add-password-btn">Add Website</button>
+        <div id="website-list">
+            <h2>Saved Websites</h2>
+            <ol id="passwords"></ol>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
