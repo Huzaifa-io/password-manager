@@ -13,7 +13,7 @@ A simple, client-side password manager built with HTML, CSS, and JavaScript. Thi
 
 ## Demo
 
-You can view the demo by cloning the repository and running it locally in your browser.
+You can view the demo by cloning the `repository` and running it locally in your browser.
 
 ## How to Run
 
